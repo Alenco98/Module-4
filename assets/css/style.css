@@ -1,0 +1,69 @@
+.button {
+    width: 100px;
+    height: 100px;
+}
+
+#start, button {
+    overflow: auto;
+    clear: both;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 110px;
+    height: 60px;
+    background-color: purple;
+    border: 2px solid;
+    color: black;
+}
+
+#quizbox {
+    background-color: white;
+    width: 600px;
+    padding: 10%;
+    margin-top: 60px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+body, div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin: 15px;
+    width: 300px;
+    height: 200px;
+}
+
+nav {
+    padding: 1%;
+    width: 100%;
+    height: 30px;
+    margin-top: -10px;
+    text-align: center;
+    background-color: skyblue;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid;
+    background-color: purple;
+    font-size: 18px;
+    padding: 5px;
+    margin: 4px;
+    width: 100%;
+    text-align: center;
+}
+
+p:hover {
+    background-color: violet;
+}
+
+body {
+    background-color: white;
+}
